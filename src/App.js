@@ -1,10 +1,16 @@
 import React from 'react';
-import { Resturants } from './components/Basics/Resturants';
+//import UseEffect from './components/Hooks/useEffect'
+import UseReducer from './components/Hooks/useReducer';
+// import { Resturants } from './components/Basics/Resturants'
+// import UseState from './components/Hooks/useState'
 
 const App = () => {
   return (
     <>
-      <Resturants />
+      {/* <Resturants /> */}
+      {/* <UseState /> */}
+      {/* <UseEffect /> */}
+      <UseReducer />
     </>
   );
 };
